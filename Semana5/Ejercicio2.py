@@ -6,6 +6,15 @@ Un sistema de climatización clasifica:
 Solicita la temperatura e indica la clasificación correspondiente.
 '''
 
+print("bienvenido")
+clima = int(input("cuantos grados hay actualmente: "))
+
+if clima < 10:
+    print("es una temperatura fria")
+elif clima >= 10 or clima <=25:
+    print("es una temperatura templada")
+elif clima > 25:
+    print("es una temperatura calurosa")
 
 
 
